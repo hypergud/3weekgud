@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        body {
+            margin: 215px 130px;
+            background-color: #ffffff;
+            font-family: 'NanumSquare', sans-serif;
+        }
+        
+        #top {
+            font-size: 150px;
+            line-height: 1.5;
+            font-weight: 800;
+            color: rgb(208, 187, 212);
+            
+        }
+        
+        #name {
+            background: linear-gradient(to right, #ca9bd3, #a849ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1.2px;
+        }
+        
+        #mainpic {
+            position: relative;
+            top: 100px;
+        }
+        
+        p{
+            font-size: 12px;
+            position: relative;
+            top: 95px;
+            left: 235px;
+        }
+        
+        h2 {
+            color: blueviolet;
+        }
+        
+        
+        audio {
+            position: absolute;
+            top: 1080px;
+            left: 550px;
+            z-index: 1000;
+        }
+        
+        #name2 {
+/*            font-family: '나눔스퀘어';*/
+            font-size: 25px;
+            position: relative;
+            top: -140px;
+            left: 430px;
+        }
+        
+        #sen {
+/*            font-family: '나눔스퀘어';*/
+            font-size: 16px;
+            position: relative;
+            top: -65px;
+            left: 430px;
+            line-height: 1.3;
+        }
+        
+        #sen2 {
+/*            font-family: '나눔스퀘어';*/
+            font-size: 20px;
+            position: relative;
+            top: 180px;
+            left: 20px;
+            line-height: 1.8;
+        }
+        
+        #contents {
+            font-size: 27px;
+            font-weight: 600;
+        }
+        
+        #sen2 ul {
+            list-style-type:square;
+            position: relative;
+            left: -30px;
+        }
+        
+        #sen2 a {
+            color: blueviolet;
+            text-decoration: none;
+            line-height: 1.3;
+        }
+        
+        #sen2 a:hover {
+            color: black;
+        }
+        
+        #one {
+            position: relative;
+            top: 200px;
+/*            right: 250px;*/
+            z-index: 3000;
+        }
+        
+        #two {
+            position: relative;
+            top: 200px;
+/*            right: 250px;*/
+            z-index: 3000;
+        }
+
+        #three {
+            position: relative;
+            top: 200px;
+/*            right: 250px;*/
+            z-index: 3000;
+        }
+        
+        #extra {
+            position: relative;
+            top: 200px;
+            left: 0;
+        }
+        
+        #school {
+            margin-top: 350px;
+            padding: 120px 30px;
+            font-size: 20px;
+        }
+        
+        ol {
+            margin: 50px 10px;
+            
+        }
+        
+        ol > li {
+            margin-bottom: 25px;
+            padding: 0 8px;
+        }
+        
+        #sub1 {
+            position: relative;
+            top: -415px;
+            left: -20px;
+        }
+        
+        #hobby {
+            padding: 120px 30px;
+            font-size: 20px;
+        }
+        
+        #hobby > ul {
+            list-style-type: none;
+            line-height: 2;
+        }
+        
+        #hobby > ul > li {
+            padding: 10px;
+        }
+        
+        #sub2 {
+            position: relative;
+            top: -555px;
+            left: -20px;
+        }
+        
+        #motto {
+            padding: 120px 30px;
+            font-size: 20px;
+            margin-bottom: 300px;
+        }
+        
+        #mottypo {
+            color: rgba(0, 0, 0, 0.1);
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+        
+        #sub3 {
+            position: relative;
+            top: -500px;
+            left: -20px;
+        }
+        
+        dd {
+            margin: 33px 0;
+            position: absolute;
+            left: 10px;
+            font-size: 172px;
+            font-weight: 600;
+/*            background-color: black;*/
+            background: linear-gradient(to right, #ca9bd3, #992aff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        
+        #frame {
+            z-index: 0;
+            position: absolute;
+            top : 4205px;
+            left: 530px;
+        }
+        
+        
+        #selfcam {
+            text-align: center;
+            margin-top: 100px;
+        }
+        
+        #duringclass {
+            margin-top: 300px;
+        }
+        
+        #duringclass > ul {
+            list-style-type: none;
+            line-height: 1;
+            font-size: 15px;
+        }
+        
+        #duringclass > ul > li {
+            padding: 10px 5px;
+            display: inline-block;
+            width: 400px;
+        }
+        
+        #duringclass a{
+            color: black;
+            text-decoration: none;
+        }
+        
+        #duringclass a:hover{
+            color: #6406ba;
+            text-decoration: none;
+        }
+        
+        #first {
+            margin-top: 20px;
+        }
+        
+        #last {
+            position: relative;
+            top: 50px;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+        }
+        
+        #last:hover {
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="top">안녕하세요<br><span id="name">거드</span>입니다!</h1>
+    <!--   사진 첨부-->
+    <img id="mainpic" src="gud4.jpg" width="350px" onmouseover="this.src='gud2.jpg'" onmouseout="this.src='gud4.jpg'">
+    <p id="imgsub">마우스 호버 시 사람 ver</p>
+
+    <!-- 목소리 삽입 -->
+    <audio controls>
+        <source src="voice.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <h3 id="name2">이름 : 심재형 (21861071) </h3>
+
+    <h5 id="sen">
+        생년월일 : 2000년 2월 4일 <br>
+        전화번호 : 010-9073-5870 <br><br>
+    </h5>
+
+    <div id="sen2">
+        <span id="contents"> 목차 </span>
+        <ul>
+            <li><a href="#school">출신학교</a></li>
+            <li><a href="#hobby">취미</a></li>
+            <li><a href="#motto">좌우명</a></li>
+            <li><a href="#duringclass">지난 시간 링크들</a></li>
+        </ul>
+
+    </div>
+    
+    
+    <img id="one" src="pupp.png" alt="pup" width="50px">
+    <img id="two" src="pupp.png" alt="pup" width="50px">
+    <img id="three" src="pupp.png" alt="pup" width="50px">
+
+
+    <p id="extra">소제목 옆의 이미지를 누르면 목차로 이동<br>마지막 목차 하단엔 상단 이동 링크 있어 생략.</p>
+    <div id="school">
+        <h2>출신학교</h2>
+        <ol>
+            <li> 대자초등학교&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&nbsp;&nbsp;&nbsp;초등 1학년 말에 투명테 안경은 안보이는 줄 알고 썼다더라~</li>
+            <li> 운암중학교&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&nbsp;&nbsp;&nbsp;중학생 심재형은 인간으로 안 침.</li>
+            <li> 전남대학교사범대학부설고등학교&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&nbsp;&nbsp;&nbsp;물화 간지로 이과에서 열공하지만 고3 여름에 진로 유턴?!</li>
+            <li> 계원예술대학교 재학중&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&nbsp;&nbsp;&nbsp;프로그래밍 간지로 연명.. 매일.. 하루살이의 열정으로...!</li>
+        </ol>
+    </div>
+    
+    <a href="#contents"><img id="sub1" src="pupp.png" alt="pup" width="30px"></a>
+    
+
+    <div id="hobby">
+        <h2>취미</h2>
+        <ul>
+            <li>좋은 노래 찾기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; &nbsp;&nbsp;&nbsp;Kung vs Cookin' on 3 Burners - This Girl&nbsp;&nbsp;&nbsp;증말 좋아요</li>
+            <li>영화나 음악 틀어두고 그림 그리기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&nbsp;&nbsp;&nbsp;제 그림은 Instagram @w0gud 에서 볼 수 있네요 ~</li>
+            <li>셀프로 머리 자르기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&nbsp;&nbsp;&nbsp;앞머리 자르는 낙으로 살고 있습니다.</li>
+            <li>메모장에 글이나 일기 쓰기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&nbsp;&nbsp;&nbsp;매일 쓰진 못합니다.. 주로 새벽에 번뜩여서 써용</li>
+            <li>냉면 먹고싶어하기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&nbsp;&nbsp;&nbsp;냉면.. 되도록 한주에 한번은 먹어야 심신안정..</li>
+            <li>만화나 애니메이션이나 영화 감상&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&nbsp;&nbsp;&nbsp;베르세르크 재밌어요..흑흑</li>
+        </ul>
+    </div>
+    
+    <a href="#contents"><img id="sub2" src="pupp.png" alt="pup" width="30px"></a>
+    
+    
+    <br>
+    <br>
+    <br>
+
+    <dl id="motto">
+        <dt>
+            <h2 id="mottypo">좌우명</h2>
+        </dt>
+        <dd>압도적인 사람이 되자</dd>
+    </dl>
+    
+    <a href="#contents"><img id="sub3" src="pupp.png" alt="pup" width="30px"></a>
+    
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- 셀카영상 삽입 -->
+    <img id="frame" src="nemo.png" alt="frame" width="470px">
+
+    <div id="selfcam">
+        <video width="320" controls>
+            <source src="me.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <!--    3주차 수업에 작성한 페이지 제목 이름으로 링크 리스트업-->
+    <div id="duringclass">
+       <h2>3WEEK_</h2>
+        <ul>
+            <li id="first"><a href="review04.html">줄바꿈 태그와 공백 문자가 없는 경우</a></li>
+            <li><a href="CH03_lesson01.html">단락구분</a></li>
+            <li><a href="CH03_lesson02.html">순서 없는 목록</a></li>
+            <li><a href="CH03_lesson03.html">순서 있는 목록</a></li>
+            <li><a href="CH03_lesson04.html">정의 목록</a></li>
+            <li><a href="CH03_lesson05.html">링크 연습</a></li>
+            <li><a href="index.html">페이지_링크 연습</a></li>
+            <li><a href="page1.html">꽃잔디 링크(page1)</a></li>
+            <li><a href="flower.html">금계국</a></li>
+            <li><a href="flower2.html">해당화</a></li>
+            <li><a href="Mini_Project.html">식물원 관람 안내 페이지</a></li>
+        </ul>
+
+    </div>
+    
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <a id="last" href="#top">누르면 상단 이동</a>
+</body>
+
+</html>
